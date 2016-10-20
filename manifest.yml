@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 64M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: workshop-ms-2810
+  host: workshop-ms-2810
+  disk_quota: 1024M
+  buildpack: https://github.com/cloudfoundry/php-buildpack.git
